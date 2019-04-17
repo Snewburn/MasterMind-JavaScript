@@ -1,0 +1,43 @@
+<!DOCTYPE HTML>
+<html>
+<head>
+
+	<link type="text/css" rel="stylesheet" href="style.css"/>
+	<script src="javascript.js"></script>
+
+</head>
+
+<body onload="holeReset()">
+	
+	<h1 id="mainbanner">MasterMind Javascript</h1>
+	
+	<!-- Peg holes -->
+	<div id="drophole1" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+	<div id="drophole2" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+	<div id="drophole3" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+	<div id="drophole4" ondragover="allowDrop(event)" ondrop="drop(event)"></div>
+	
+	<!-- pegs -->
+	<img id="redpeg" src="images/redpeg.jpg" draggable="true" ondragstart="drag(event)" width="20px" height="20px"/>
+	<img id="bluepeg" src="images/bluepeg.jpg" draggable="true" ondragstart="drag(event)" width="20px" height="20px"/>
+	<img id="greenpeg" src="images/greenpeg.jpg" draggable="true" ondragstart="drag(event)" width="20px" height="20px"/>
+	<img id="blackpeg" src="images/blackpeg.jpg" draggable="true" ondragstart="drag(event)" width="20px" height="20px"/>
+	<img id="orangepeg" src="images/orangepeg.jpg" draggable="true" ondragstart="drag(event)" width="20px" height="20px"/>
+	<img id="whitepeg" src="images/whitepeg.jpg" draggable="true" ondragstart="drag(event)" width="20px" height="20px"/>
+	
+	<!--control buttons -->
+	<button id="evalbutton" type="button" onclick="evalClick()">Evaluate</button>
+	<button id="clearbutton" type="button" onclick="holeReset()">Clear</button>
+	
+	<!-- instruction prompt -->
+	<div id="instructionprompt">Drag a color to a hole</div>
+	
+	
+	<!-- results display -->
+	<h3 id="resultsheader">Results Display</h3>
+	<div id="resultsdisplay"></div> 
+	
+</body>
+
+
+</html>

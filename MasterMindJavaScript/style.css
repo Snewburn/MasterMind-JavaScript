@@ -1,0 +1,75 @@
+
+#drophole1, #drophole2, #drophole3, #drophole4
+{
+	border-radius: 50%;
+	border-style: solid;
+	border-width: 5px;
+	position: absolute;
+	top: 125px;
+	height: 20px;
+	width: 20px;
+	padding: 10px;
+}
+
+#drophole1{left: 50px;} #drophole2{left: 150px;} #drophole3{left: 250px;} #drophole4{left: 350px}
+
+#instructionprompt
+{
+	position: absolute;
+	border-style: inset;
+	border-width: 5px;
+	top: 300px;
+	left: 75px;
+	height: 20px;
+	width: 300px;
+}
+
+
+#redpeg, #bluepeg, #greenpeg, #whitepeg, #blackpeg, #orangepeg
+{
+	border-radius: 50%;
+	position: absolute;
+	top: 200px;	
+}
+#redpeg{left: 350px;} #bluepeg{left: 300px;} #greenpeg{left: 250px;} #whitepeg{left: 200px;} #blackpeg{left: 150px;} #orangepeg{left: 100px;}
+
+
+
+#evalbutton
+{
+	position: absolute;
+	top: 250px;
+	left: 150px;
+}
+
+#clearbutton
+{
+	position: absolute;
+	top: 250px;
+	left: 250px;
+}
+
+#resultsdisplay
+{
+	position: absolute;
+	border-style: inset;
+	border-width: 5px;
+	top: 100px;
+	left: 450px;
+	height: 300px;
+	width: 300px;
+}
+
+#resultsheader
+{
+	position: absolute;
+	top: 50px;
+	left: 450px;
+}
+
+#mainbanner
+{
+	position: absolute;
+	top: 0px;
+	left: 230px;
+}
